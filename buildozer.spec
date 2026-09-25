@@ -28,3 +28,7 @@ android.wakelock = 1
 
 # Kivy
 osx.kivy_version = 2.3.1
+
+# Автопринятие лицензий SDK
+android.accept_sdk_license = True
+android.skip_update = False
