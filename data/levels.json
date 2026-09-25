@@ -1,0 +1,345 @@
+{
+  "levels": [
+    {
+      "num": 1,
+      "rows": 4, "cols": 4,
+      "goals": [{"type": "score", "target": 200}],
+      "moves": 10,
+      "holes": [], "ice": [], "meteor": null
+    },
+    {
+      "num": 2,
+      "rows": 4, "cols": 4,
+      "goals": [{"type": "score", "target": 300}],
+      "moves": 12,
+      "holes": [], "ice": [], "meteor": null
+    },
+    {
+      "num": 3,
+      "rows": 4, "cols": 4,
+      "goals": [{"type": "score", "target": 400}],
+      "moves": 14,
+      "holes": [], "ice": [], "meteor": null
+    },
+    {
+      "num": 4,
+      "rows": 6, "cols": 6,
+      "goals": [{"type": "score", "target": 600}],
+      "moves": 16,
+      "holes": [], "ice": [], "meteor": null
+    },
+    {
+      "num": 5,
+      "rows": 6, "cols": 6,
+      "goals": [{"type": "score", "target": 800}],
+      "moves": 18,
+      "holes": [], "ice": [], "meteor": null
+    },
+    {
+      "num": 6,
+      "rows": 6, "cols": 6,
+      "goals": [
+        {"type": "score", "target": 700},
+        {"type": "color", "color": 0, "count": 10}
+      ],
+      "moves": 24,
+      "holes": [], "ice": [], "meteor": null
+    },
+    {
+      "num": 7,
+      "rows": 6, "cols": 6,
+      "goals": [
+        {"type": "score", "target": 800},
+        {"type": "color", "color": 1, "count": 12}
+      ],
+      "moves": 24,
+      "holes": [], "ice": [], "meteor": null
+    },
+    {
+      "num": 8,
+      "rows": 8, "cols": 8,
+      "goals": [
+        {"type": "score", "target": 1000},
+        {"type": "color", "color": 2, "count": 15}
+      ],
+      "moves": 28,
+      "holes": [], "ice": [], "meteor": null
+    },
+    {
+      "num": 9,
+      "rows": 8, "cols": 8,
+      "goals": [
+        {"type": "score", "target": 1000},
+        {"type": "color", "color": 0, "count": 18}
+      ],
+      "moves": 28,
+      "holes": [], "ice": [], "meteor": null
+    },
+    {
+      "num": 10,
+      "rows": 8, "cols": 8,
+      "goals": [
+        {"type": "score", "target": 1200},
+        {"type": "color", "color": 3, "count": 20}
+      ],
+      "moves": 26,
+      "holes": [], "ice": [], "meteor": null
+    },
+    {
+      "num": 11,
+      "rows": 8, "cols": 8,
+      "goals": [
+        {"type": "score", "target": 1000},
+        {"type": "ice"}
+      ],
+      "moves": 28,
+      "holes": [],
+      "ice": [[2,2], [2,3], [2,4], [3,2], [3,4], [4,2], [4,3], [4,4]],
+      "meteor": null
+    },
+    {
+      "num": 12,
+      "rows": 8, "cols": 8,
+      "goals": [
+        {"type": "score", "target": 1000},
+        {"type": "color", "color": 1, "count": 15},
+        {"type": "ice"}
+      ],
+      "moves": 28,
+      "holes": [],
+      "ice": [[1,1], [1,6], [6,1], [6,6]],
+      "meteor": null
+    },
+    {
+      "num": 13,
+      "rows": 8, "cols": 8,
+      "goals": [
+        {"type": "ice"}
+      ],
+      "moves": 24,
+      "holes": [],
+      "ice": [[3,3], [3,4], [4,3], [4,4], [2,3], [2,4], [5,3], [5,4]],
+      "meteor": null
+    },
+    {
+      "num": 14,
+      "rows": 8, "cols": 8,
+      "goals": [
+        {"type": "score", "target": 1200},
+        {"type": "ice"}
+      ],
+      "moves": 26,
+      "holes": [],
+      "ice": [[0,0], [0,1], [1,0], [1,1], [6,6], [6,7], [7,6], [7,7], [3,3], [4,4]],
+      "meteor": null
+    },
+    {
+      "num": 15,
+      "rows": 8, "cols": 8,
+      "goals": [
+        {"type": "score", "target": 1500},
+        {"type": "color", "color": 0, "count": 20},
+        {"type": "ice"}
+      ],
+      "moves": 30,
+      "holes": [],
+      "ice": [[2,2], [2,5], [5,2], [5,5], [3,3], [3,4], [4,3], [4,4]],
+      "meteor": null
+    },
+    {
+      "num": 16,
+      "rows": 8, "cols": 8,
+      "goals": [
+        {"type": "score", "target": 1200},
+        {"type": "meteor"}
+      ],
+      "moves": 25,
+      "holes": [],
+      "ice": [],
+      "meteor": [0, 3]
+    },
+    {
+      "num": 17,
+      "rows": 8, "cols": 8,
+      "goals": [
+        {"type": "meteor"}
+      ],
+      "moves": 20,
+      "holes": [],
+      "ice": [],
+      "meteor": [0, 4]
+    },
+    {
+      "num": 18,
+      "rows": 8, "cols": 8,
+      "goals": [
+        {"type": "score", "target": 1500},
+        {"type": "meteor"}
+      ],
+      "moves": 30,
+      "holes": [],
+      "ice": [],
+      "meteor": [0, 2]
+    },
+    {
+      "num": 19,
+      "rows": 8, "cols": 8,
+      "goals": [
+        {"type": "color", "color": 2, "count": 18},
+        {"type": "meteor"}
+      ],
+      "moves": 25,
+      "holes": [],
+      "ice": [],
+      "meteor": [0, 3]
+    },
+    {
+      "num": 20,
+      "rows": 8, "cols": 8,
+      "goals": [
+        {"type": "score", "target": 1500},
+        {"type": "color", "color": 4, "count": 15},
+        {"type": "meteor"}
+      ],
+      "moves": 30,
+      "holes": [],
+      "ice": [],
+      "meteor": [0, 5]
+    },
+    {
+      "num": 21,
+      "rows": 8, "cols": 8,
+      "goals": [
+        {"type": "score", "target": 1500},
+        {"type": "ice"}
+      ],
+      "moves": 28,
+      "holes": [[0,0], [7,7], [0,7], [7,0]],
+      "ice": [[2,2], [2,5], [5,2], [5,5]],
+      "meteor": null
+    },
+    {
+      "num": 22,
+      "rows": 8, "cols": 8,
+      "goals": [
+        {"type": "ice"},
+        {"type": "meteor"}
+      ],
+      "moves": 25,
+      "holes": [[3,3], [3,4], [4,3], [4,4]],
+      "ice": [[1,1], [1,6], [6,1], [6,6]],
+      "meteor": [0, 4]
+    },
+    {
+      "num": 23,
+      "rows": 8, "cols": 8,
+      "goals": [
+        {"type": "score", "target": 1800},
+        {"type": "color", "color": 5, "count": 18}
+      ],
+      "moves": 28,
+      "holes": [[0,0], [0,7], [7,0], [7,7], [3,3], [4,4]],
+      "ice": [],
+      "meteor": null
+    },
+    {
+      "num": 24,
+      "rows": 8, "cols": 8,
+      "goals": [
+        {"type": "score", "target": 1800},
+        {"type": "ice"},
+        {"type": "meteor"}
+      ],
+      "moves": 30,
+      "holes": [[0,0], [0,7], [7,0], [7,7]],
+      "ice": [[3,3], [3,4], [4,3], [4,4]],
+      "meteor": [0, 3]
+    },
+    {
+      "num": 25,
+      "rows": 8, "cols": 8,
+      "goals": [
+        {"type": "score", "target": 2000},
+        {"type": "color", "color": 0, "count": 20},
+        {"type": "ice"}
+      ],
+      "moves": 30,
+      "holes": [[0,0], [0,7], [7,0], [7,7], [2,2], [5,5]],
+      "ice": [[1,1], [1,6], [6,1], [6,6], [3,3], [4,4]],
+      "meteor": null
+    },
+    {
+      "num": 26,
+      "rows": 8, "cols": 8,
+      "goals": [
+        {"type": "score", "target": 2000},
+        {"type": "color", "color": 1, "count": 20},
+        {"type": "meteor"}
+      ],
+      "moves": 30,
+      "holes": [[0,0], [0,7], [7,0], [7,7]],
+      "ice": [],
+      "meteor": [0, 4]
+    },
+    {
+      "num": 27,
+      "rows": 8, "cols": 8,
+      "goals": [
+        {"type": "score", "target": 2200},
+        {"type": "ice"},
+        {"type": "meteor"}
+      ],
+      "moves": 30,
+      "holes": [[0,0], [0,1], [1,0], [0,6], [0,7], [1,7],
+                [7,0], [7,1], [6,0], [7,6], [7,7], [6,7]],
+      "ice": [[3,3], [3,4], [4,3], [4,4]],
+      "meteor": [0, 3]
+    },
+    {
+      "num": 28,
+      "rows": 8, "cols": 8,
+      "goals": [
+        {"type": "score", "target": 2500},
+        {"type": "color", "color": 2, "count": 25},
+        {"type": "ice"},
+        {"type": "meteor"}
+      ],
+      "moves": 32,
+      "holes": [[0,0], [0,7], [7,0], [7,7], [3,3], [4,4]],
+      "ice": [[1,1], [1,6], [6,1], [6,6]],
+      "meteor": [0, 4]
+    },
+    {
+      "num": 29,
+      "rows": 8, "cols": 8,
+      "goals": [
+        {"type": "score", "target": 2800},
+        {"type": "color", "color": 3, "count": 25},
+        {"type": "ice"},
+        {"type": "meteor"}
+      ],
+      "moves": 32,
+      "holes": [[0,0], [0,1], [1,0], [0,6], [0,7], [1,7],
+                [7,0], [7,1], [6,0], [7,6], [7,7], [6,7],
+                [3,3], [4,4]],
+      "ice": [[2,2], [2,5], [5,2], [5,5]],
+      "meteor": [0, 4]
+    },
+    {
+      "num": 30,
+      "rows": 8, "cols": 8,
+      "goals": [
+        {"type": "score", "target": 3000},
+        {"type": "color", "color": 0, "count": 25},
+        {"type": "ice"},
+        {"type": "meteor"}
+      ],
+      "moves": 35,
+      "holes": [[0,0], [0,1], [1,0], [0,6], [0,7], [1,7],
+                [7,0], [7,1], [6,0], [7,6], [7,7], [6,7],
+                [3,3], [3,4], [4,3], [4,4]],
+      "ice": [[2,2], [2,5], [5,2], [5,5], [1,3], [6,4]],
+      "meteor": [0, 4]
+    }
+  ]
+}
